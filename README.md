@@ -1,12 +1,11 @@
-# rp_adapter : v4
+Mezzanine1
 
-# rp_adapter
+This is a small 5V power supply that can be added to the existing RP_ADAPTER.
 
-This is the layout of the 4th iteration of this board.  Currently the design in this directory is the 
-transceiver consisting of a connector to the Red Pitaya, the OpenHPSDR TAPR LPU, the OpenHPSDR TAPR T/R board, 
-a 1W PA taken from the OpenHPSDR Penelope board, and a simple 18db ish LNA.  
+It uses Anderson Power Poles to receive 12V. These being modular -they can be connected to the 
+existing power connection of the rp_adapter.  This was created to power the Raspberry Pi.
 
-The connecitivy is built to interface to an external amplifier, the Hermes RX Filter from EB104.ru and
-the 300W LPF from EB104.ru. You need to get the amp keying from the EB104.ru LPF board. 
+There are two USB connectors and a 13.8V fan connection available.
 
-Enjoy
+This is a total rip-off of the LPU 5V section of provided by OpenHPSDR and all credit goes to them,
+all blame for layout issues goes to me.
