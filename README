@@ -1,0 +1,9 @@
+This is a small 5V power supply that can be added to the existing RP_ADAPTER.
+
+It uses Anderson Power Poles to receive 12V. These being modular -they can be connected to the 
+existing power connection of the rp_adapter.  This was created to power the Raspberry Pi.
+
+There are two USB connectors and a 13.8V fan connection available.
+
+This is a total rip-off of the LPU 5V section of provided by OpenHPSDR and all credit goes to them,
+all blame for layout issues goes to me.
